@@ -1106,12 +1106,16 @@ resize: none;
         
     }
     
+    .modal {
+     width: 100%;
     
 }
+.modal-form__check-desc {
+   
+    font-size: 9px;
+}
 
-
-
-
+}
 
 
 
@@ -1312,6 +1316,22 @@ screen and (min-resolution: 2dppx) and (min-width:768px) and (max-width:1157px){
 }
 
 
+.team-list {
+   column-gap: 24px;
+   row-gap: 64px;
+}
+
+
+.client-list-item {
+    width: calc((100% - 232px) / 3);
+    
+}
+
+.client-list {
+    justify-content: center;
+    row-gap: 72px;
+    column-gap: 24px;
+}
 
 
 .cards {
